@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.what{
+    background-color: #ffffff;
+    border: #000 solid 1px;
+    border-radius: 20px;
+    padding: 2px;
+    width: 400px;
+    height: 500px;
+}
+.what h2{
+    background-color: #000;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5%;
+
+}
+.what h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.what p{
+    padding:  5px 5px 15px 5px;
+    
+}
+.con2 h3{
+    box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.217);
+}
+ul{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing:20px;
+}
+.parent{
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 237, 237);
+}
+.sidebar {
+    width: 20%;
+    position: absolute;
+    left: -250px;
+    
+    top: 0;
+    width: 250px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border-right: 2px solid #000;
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+.slidebar p{
+    font-size: 5px;
+}
+.logo{
+    width: 50%;
+    text-align:left;
+    padding-left: 3%;
+}
+.logo img{
+    width: 300px;
+
+}
+.others{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 8%;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 40px;
+    color: black;
+}
+
+.open-btn {
+    position: absolute;
+    left: 5;
+    
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.open-btn button {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.content{
+   display: flex;
+   width: 90%;
+   padding: 1% 2% 3% 2%;
+   overflow-x: hidden;
+   margin-left: 10%;
+}
+.con1{
+    width: 70%;
+    
+    
+}
+.con2{
+   
+    width: 15%;
+    margin-top: 10px;
+    color: white;
+}
+.con2 h3{
+    padding: 2%;
+    background-color: blue;
+    width:max-content;
+    padding:  4% 6% 4% 6%;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+}
+.explore{
+    padding:  2% 2% 2% 2% ;
+    margin-left: 15%;
+    width: 70%;
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.42);
+    border-radius: 10px;
+    background-color: #d7d7d7;
+}
+.explore h3{
+    padding-top: 15px;
+    padding-left: 9px;
+    font-size: 35px;
+}
+.explore p{
+    padding: 11px 9px 15px 9px;
+    font-size: 15px;
+}
+.container2{
+    display: flex;
+    width: 80%;
+    margin-left: 20%;
+    
+}
+
+.child{
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.42);
+    
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 6%;
+    background-color: #ffffff;
+    height: 550px;
+    border-radius: 20px;
+    border: #000000 solid 2px;
+}
+.container2 h3{
+    background-color: #000;
+    font-size: 25px;
+    color: #ffffff;
+    padding:2%;
+    text-align: center;
+    font-weight: 300;
+    border-radius:  18px 18px 0px 0px ;
+
+}
+
+.child p{
+    font-size: 16px;
+    padding: 6%;
+}
+.child span{
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+}
+.chi h3{
+    background-color: #d9d9d9;
+    color: #000000;
+    margin-top: 4%;
+    font-weight: 100;
+    font-size: 15px;
+}
+.child h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 3%;
+}
+.container3 input{
+    width: 170px;
+    height: 65px;
+    border-radius: 0px 0px 20px 20px ;
+}
+.chi{
+    margin-left:6% ;
+}
+.child h5{
+    background-color: blue;
+    width: max-content;
+    padding: 2%;
+    margin:  3% 9% 3% 3%;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+.chi2 input{
+    width: 400px;
+    text-align: left;
+    height: 100px;
+}
+.summary h3{
+    background-color: #d7d7d7;
+    width: 90%;
+    color: #000;
+    font-weight: 100;
+    margin-left: 5%;
+}
+.summary input{
+    width: 90%;
+    margin-left: 5%;
+    border-radius:  0px 0px 20px 20px;
+}
+.show h4{
+    text-align: left;
+    padding-left: 4%;
+}
+.summary h5{
+    margin-left: 6%;
+}
+.show input{
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 10px;
+    height: 10%;
+}
+.hold img{
+    width: 90%;
+    margin-left: 4%;
+}
+.int{
+    width: 80%;
+    margin-left: 4%;
+    margin-bottom: 15%;
+}
+.int h3{
+    background-color: #d9d9d9;
+    width: 80%;
+    border-radius: 2px;
+    
+    color: #000;
+}
+.int h6{
+    margin:  5% 0% 5% 0%;
+    padding: 2%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.int h2{
+    margin-left: 2%;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.end{
+    text-align: right;
+    
+}
+.end img{
+    height: 250px;
+    padding: 20px;
+}
+a:hover,.con2 h3 ,.summary h5,.int h2,.end img{
+    cursor: pointer;
+}
+.what ul{
+    padding: 10%;
+}

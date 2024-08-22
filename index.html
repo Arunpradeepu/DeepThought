@@ -1,0 +1,145 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Deep Thought</title>
+    <link rel="icon" href="logo1.png">
+</head>
+<body>
+
+
+    <header>
+    <div class="parent">
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <div class="others">
+            <nav>
+                <ul>
+                    <a >Home</a>
+                    <a>Service</a>
+                    <a>Notification</a>
+                    <a>Profile</a>                    
+                </ul>
+            </nav>
+        </div>
+    </div>   
+    </header>
+
+
+   
+<div class="container" >
+    
+    
+    <div id="sideBar" class="sidebar">
+        
+        <div class="close-btn">
+            <span>&#x2190;</span>
+        </div>
+        <div class="what">
+        <h2>Journey Board</h2>
+        <ul>
+            <h4 style="margin-bottom: 5%;">Explore the world of Management</h4>
+            <p style="font-size: 15px;">Technical Project Management</p>
+            <p style="font-size: 15px;">Threadbuild</p>
+            <p style="font-size: 15px;">Structure your pointers</p>
+            <p style="font-size: 15px;">4SA Method</p>
+        </ul>
+    </div>
+    </div>
+    <div class="open-btn">
+        <button id="openSidebar"><span>&#x2192;</span></button>
+    </div>
+    
+</div>
+<div class="content">
+    <div class="con1"><h2 style="color: blue;font-size: 35px;">Technical Project Management</h2></div>
+    <div class="con2">
+       <h3 style="color: rgb(255, 255, 255);margin-left: 100%;">Submit Task</h3>
+   </div>
+</div>
+<div>
+    <div class="explore">
+        <h3>Explore the world of Management</h3>
+        <p>As a Project Manager, you play a important role in leading the project through initiation, planing, monitoring, controlling and completion. How? Do you want to manage each and every step of your life</p>
+    </div>
+    <div class="container2">
+        <div class="child">
+            <h3>Technical Project Management</h3>
+            <p><span>Description:</span>
+             Story of Allignment Scope of Agility Specific Accountable Staggering Approach</p>
+             <hr>
+            <img style="width: 472px;" src="you tube.png">
+        </div>
+        <div class="child">
+            <h3>Threadbuild</h3>
+            <p><span>Description:</span>
+             Story of Allignment Scope of Agility Specific Accountable Staggering Approach</p>
+             <hr>
+             <h4>Thread A</h4>
+             <div class="container3">
+                   <div class="chi">
+                    <h3>Sub thread 1</h3>
+                    <input type="text" placeholder="Enter Text here..">
+                   </div>
+                   <div class="chi">
+                    <h3>Sub thread 1</h3>
+                    <input type="text" placeholder="Enter Text here..">
+                   </div>
+                   
+             </div>
+             <div class="summary">
+             <h5>+ Sub-Thread</h5>
+             <div class="chi2">
+                <h3>Sub thread 1</h3>
+                <input type="text" placeholder="Enter Text here..">
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="child">
+            <h3>Structure your Pointers</h3>
+            <p><span>Description:</span>
+            Write a 300-400 word article from your thread . Publish your understanding and showcase your understanding to the entire world </p>
+             <hr>
+             <div class="show">
+             <h4>Title</h4>
+             <input type="text">
+             <h4>Content</h4>
+             <div class="hold">
+                <img src="file.png"> 
+
+             </div>
+             </div>
+        </div>
+        <div class="child">
+            <h3>4SA Method</h3>
+            <p><span>Description:</span>
+                To Exlore more Read more</p>
+                
+            <hr>
+            <div class="int"><h3>Introduction</h3>
+            <h6>The 4SA Method ,How to bring the idea into progress?</h6>
+            <h2>See more</h2>
+        </div>
+            <div class="int"><h3>Thread A</h3>
+            <h6>How are you going to develop your stratergy?Which method are you going to use to develop your stratergy?What if the project is lengthy?</h6>
+            <h2>See more</h2>
+        </div>
+            
+        <div class="end">
+            <img src="end.png">
+        </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+<script>
+    document.getElementById('openSidebar').addEventListener('click', function () {
+    document.getElementById('sideBar').classList.add('open');
+
+});
+
+document.querySelector('.close-btn').addEventListener('click', function () {
+    document.getElementById('sideBar').classList.remove('open');
+});
+
+</script>
